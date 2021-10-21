@@ -15,3 +15,9 @@ int led_encendido = 0;            // 0 Led Encendido --> Ninguno
 // ================================================
 // Modulo Inicializacion y Configuracion
 // ================================================
+void setup()
+{
+  pinMode(led_rojo_PIN , OUTPUT);     // Definimos el PIN del Led Rojo como SALIDA
+  pinMode(led_amarillo_PIN , OUTPUT); // Definimos el PIN del Led Amarillo como SALIDA
+  pinMode(led_verde_PIN , OUTPUT);    // Definimos el PIN del Led Verde como SALIDA
+ 
